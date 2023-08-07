@@ -161,7 +161,6 @@ button.button-year-select.active {
 
 /* INFO PAGES -> STICKY NAV BAR & MAJOR EVENTS NAV BAR START */
 
-
 .info-wrapper .nav-button-wrapper {
     display: flex;
     justify-content: center;
@@ -199,6 +198,13 @@ button.button-year-select.active {
     min-width: 190px;
     max-width: max-content;
 }
+
+.info-wrapper .sticky-listener .nav-button-wrapper .nav-button span {
+    min-width: 30vw;
+}
+
+
+
 
 .info-wrapper .nav-button:first-child {
     border-top-left-radius: 8px;
@@ -264,7 +270,7 @@ button.button-year-select.active {
     color: var(--dark-background-color);
     background: hsl(0 100% 100% / 30%);
     padding: 1em;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(100px);
     border-radius: 10px;
     z-index: 1;
 }
@@ -288,7 +294,7 @@ button.button-year-select.active {
 
 .year-info h3 {
     display: inline-block;
-    font-size: larger;
+    font-size: 2.5rem;
 }
 
 .year-info h3,
